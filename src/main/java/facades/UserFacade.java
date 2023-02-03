@@ -119,6 +119,7 @@ public class UserFacade {
             e.printStackTrace();
         }
 
+
         UserFacade fe = new UserFacade("startcode");
         UserDTO user = fe.create(new UserDTO("Hansi", "Hasagawa", "1234", "12345678", "Hansensvej 1"));
 //        int id = user.getId();
