@@ -122,10 +122,10 @@ public class UserFacade {
 
         UserFacade fe = new UserFacade("startcode");
         UserDTO user = fe.create(new UserDTO("Hansi", "Hasagawa", "1234", "12345678", "Hansensvej 1"));
-//        int id = user.getId();
-//        fe.getAll().forEach(dto -> System.out.println(dto));
-//        fe.update(new UserDTO(id, "Hans", "Hansen", "1234", "12345678", "Hansensvej 1"));
-//        fe.getAll().forEach(dto -> System.out.println(dto));
+        int id = user.getId();
+        fe.getAll().forEach(dto -> System.out.println(dto));
+        fe.update(new UserDTO(id, "Hans", "Hansen", "1234", "12345678", "Hansensvej 1"));
+        fe.getAll().forEach(dto -> System.out.println(dto));
     }
 
 }
