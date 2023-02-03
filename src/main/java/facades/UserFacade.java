@@ -102,6 +102,7 @@ public class UserFacade {
         return userDTOList;
     }
 
+
     public static void main(String[] args) {
         try {
             Connection con = DBConnector.connection("startcode");
