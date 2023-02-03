@@ -10,7 +10,6 @@
 <html>
 
 <head>
-
     <title>Show all users</title>
     <style>
         table {
