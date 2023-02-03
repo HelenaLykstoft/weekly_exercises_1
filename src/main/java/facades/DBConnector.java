@@ -10,7 +10,6 @@ import java.util.Properties;
 public class DBConnector {
     private static String URL = "jdbc:mysql://localhost:3306/";
 
-
     private static String USER = "dev";
     private static String PW = "ax2";
 
